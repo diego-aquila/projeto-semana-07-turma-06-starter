@@ -5,12 +5,20 @@
     "build": "parcel build"
   },
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.4.0",
     "parcel": "^2.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diego-aquila/projeto-semana-07-turma-06-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/diego-aquila/projeto-semana-07-turma-06-starter/issues"
+  },
+  "homepage": "https://github.com/diego-aquila/projeto-semana-07-turma-06-starter#readme",
+  "description": ""
 }
