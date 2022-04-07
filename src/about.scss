@@ -6,6 +6,9 @@
   margin-top: 93px;
   @media (min-width: 992px) {
     margin: auto;
+    margin: auto;
+
+    max-width: 1440px;
   }
   &-card {
     display: flex;
@@ -18,10 +21,17 @@
     margin-right: auto;
 
     @media (min-width: 992px) {
+      display: flex;
       flex-direction: row;
       padding: 128px 117px 128px 142px;
       width: 100%;
       max-width: 100%;
+    }
+
+    &-conteinerdescription {
+      @media (min-width: 992px) {
+        max-width: 593px;
+      }
     }
 
     &-image {
@@ -39,6 +49,7 @@
       font-size: 34px;
       line-height: 40px;
       letter-spacing: 0.25px;
+      
       @media (min-width: 992px) {
         font-size: 48px;
         line-height: 57px;
